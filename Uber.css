@@ -1,0 +1,774 @@
+body{
+    margin: 0;
+}
+.header{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color:black;
+    font-size: 16px;
+    width: 100%;
+    height: 64px;
+    float: left;
+    
+}
+.Uber{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 90px;
+    padding-top: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    float: left;
+}
+.option{
+    float: left;
+    cursor: pointer;
+    margin-left: 29px;
+    margin-top: 14px;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 30px;
+    padding: 10px 12px;
+    color: rgb(255, 255, 255);
+    background-color:black;
+    
+}
+.option:hover{
+    background-color: darkgrey;
+    transition-duration: .3s;
+}
+.Safety{
+    float: left;
+    cursor: pointer;
+    margin-left: 23px;
+    margin-top: 17px;
+    border-radius: 30px;
+    padding: 10px 12px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.Safety:hover{
+    background-color: darkgrey;
+    transition-duration: .3s;
+}
+.Help{
+    float: left;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 17px;
+    border-radius: 30px;
+    padding: 10px 12px;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.Help:hover{
+    background-color: darkgrey;
+    transition-duration: .3s;
+}
+.EN{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 30px;
+    padding: 10px 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    white-space: nowrap;
+    margin-left: 661px;
+    margin-top: 15px;
+    float: left;
+}
+.EN:hover{
+    background-color: darkgrey;
+    transition-duration: .3s;
+}
+.Products{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 30px;
+    padding: 10px 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    white-space: nowrap;
+    margin-left: 32px;
+    margin-top: 15px;
+    float: left;
+}
+.Products:hover{
+    background-color: darkgrey;
+    transition-duration: .3s;
+}
+.Login{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 30px;
+    padding: 10px 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    white-space: nowrap;
+    margin-left: 32px;
+    margin-top: 15px;
+    float: left;
+}
+.Login:hover{
+    background-color: darkgrey;
+    transition-duration: .3s;
+}
+.signupbutton{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 30px;
+    padding: 10px 12px;
+    color: black;
+    background-color: white;
+    white-space: nowrap;
+    margin-left: 32px;
+    margin-top: 11px;
+    float: left;
+    cursor: pointer;
+    
+}
+.signupbutton:hover{
+    background-color: darkgrey;
+    transition-duration: .3s;
+}
+.part1left{
+    width: 50%;
+    height: 800px;
+    background-color: black;
+    float: left;
+    
+}
+.part1right{
+    width: 50%;
+    height: 800px;
+    background-color: black;
+    float: left;
+   
+}
+.left1inside{
+    width: 459px;
+    height: 382px;
+    margin-left: 140px;
+    margin-top: 200px;
+}
+.top{
+    width: 100%;
+    height: 50%;
+    float: left;
+   
+}
+.top1{
+    width: 100%;
+    height: 75%;
+    float: left;
+    color:#FFFFFF;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+}
+.top2{
+    width: 100%;
+    height: 25%;
+    float: left;
+    padding-top: 22px;
+        font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    color: white;
+    }
+
+.bottom{
+    width: 100%;
+    height: 50%;
+    float: left;
+}
+.bottom1{
+    width: 100%;
+    height: 60%;
+    float: left;
+}
+.bottom2{
+    width: 100%;
+    height: 40%;
+    float: left;
+}
+.bottominput{
+    width:89%;
+    height: 40px;
+   border-radius: 10px;
+   margin-top: 12px;
+}
+.bottombutton{
+    cursor: pointer;
+    margin-left: 0;
+    margin-top: 28px;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+.bottombutton:hover{
+    background-color: darkgray;
+    transition-duration: .3s;
+}
+
+
+.image1{
+    display: block;
+    width: 85%;
+    height: 84%;
+    transform: scaleX(1);
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    margin-top: 60px;
+}
+.part2left{
+    width: 50%;
+    height: 686px;
+    float: left;
+   
+}
+.part2right{
+    width: 50%;
+    height: 686px;
+    float: left;
+    
+}
+.image2{
+    display: block;
+    width: 558px;
+    height: 558px;
+    transform: scaleX(1);
+    margin-left: 162px;
+    margin-top: 63px;
+}
+.part2font{
+    width:459px ;
+    height: 376px;
+    margin-top: 153px;
+    margin-left: 98px;
+    
+}
+.part2font1{
+    width: 100%;
+    height: 55%;
+    float: left;
+  
+  font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+}
+.part2font2{
+    width: 100%;
+    height: 20%;
+    float: left;
+
+ font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-top: 24px;
+}
+.part2font3{
+    width: 100%;
+    height: 20%;
+    float: left;
+
+}
+.part2font3div1{
+    width: 136px;
+    height: 100%;
+    
+    float: left;
+}
+.part2button{
+    cursor: pointer;
+    margin-left: 0;
+    margin-top: 12px;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #FFFFFF;
+    background-color: black;
+   
+}
+.part2button:hover{
+    background-color: darkgray;
+    transition-duration: .3s;
+}
+.part2font3div2{
+    width: 323px;
+    height: 100%;
+    float: left;  
+}
+.part2font3para{
+    color: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 27px;
+    margin-left: 26px;
+    cursor: pointer;
+    
+}
+.part3right{
+    width: 50%;
+    height: 686px;
+    float: left;
+}
+.part3left{
+    width: 50%;
+    height: 686px;
+    float: left;
+}
+.part3font{
+    width:459px ;
+    height: 376px;
+    margin-top: 153px;
+    margin-left: 143px;
+   
+}
+.part3font1{
+    width: 100%;
+    height: 50%;
+    float: left;
+    
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+}
+.part3font2{
+   width:100%;
+   height: 25%;
+   float: left;
+   margin-top: 16px;
+   font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.part3font3{
+   width: 100%;
+   height: 25%;
+   float: left;
+   
+}
+.part3font3div1{
+    width: 136px;
+    height: 100%;
+    
+    float: left;
+}
+.part3button{
+    cursor: pointer;
+    margin-left: 0;
+    margin-top: 12px;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #FFFFFF;
+    background-color: black;
+}
+.part3button:hover{
+    background-color: darkgray;
+    transition-duration: .3s;
+}
+.part3font3div2{
+    width: 323px;
+    height: 100%;
+    float: left; 
+
+}
+.part3font3para{
+    color: #000000;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 27px;
+    margin-left: 26px;
+    cursor: pointer;
+}
+.image3{
+    display: block;
+    width: 85%;
+    height: 84%;
+    transform: scaleX(1);
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    margin-top: 60px;
+}
+.part4left{
+    width: 50%;
+    height: 686px;
+    float: left;
+}
+.part4right{
+   width: 50%;
+   height: 686px;
+   float: left;
+}
+.image4{
+    display: block;
+    width: 558px;
+    height: 558px;
+    transform: scaleX(1);
+    margin-left: 162px;
+    margin-top: 63px;
+}
+.part4font{
+    width: 473px ;
+    height: 376px;
+    margin-top: 153px;
+    margin-left: 98px;
+   
+}
+.part4font1{
+  width: 100%;
+  height: 33.33%;
+  float: left;
+  font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+
+  
+}
+.part4font2{
+  position: static;
+  width: 100%;
+  height: 25.5%;
+  float: left;
+  letter-spacing: 0;
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  margin-top: 14px;
+ 
+}
+
+.part4font3{
+  width: 100%;
+  height: 33.33%;
+  float: left;
+  padding-top: 10px;
+}
+.part4button{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #FFFFFF;
+    background-color: black;
+}
+.part4button:hover{
+    background-color: darkgray;
+    transition-duration: .3s;
+}
+.part5main{
+    width: 100%;
+    height: 406px;
+    background-color: #F6F6F6;
+    float: left;
+}
+.part5para{
+    width: 500px;
+    height: 100px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-left: 157px;
+    margin-top: 48px;
+    
+}
+.part5subdiv{
+    margin:0 auto;
+    margin-top: -14px;
+    width: 1152px;
+    height: 198px;
+    background-color: #F6F6F6;
+
+}
+.part5subdiv1{
+   float: left;
+   width: 566px;
+   height: 198px;
+   background-color: #FFFFFF;
+}
+.part5subdiv2{
+   float: left; 
+   margin-left: 20px;
+   width: 566px;
+   height: 198px;
+   background-color: #FFFFFF;
+}
+.imageqr1{
+    width: 154px;
+    height: 140px;
+    margin-top: 29px;
+    margin-left: 25px;
+    float: left;
+}
+.imageqr2{
+    width: 154px;
+    height: 140px;
+    margin-top: 29px;
+    margin-left: 25px;
+    float: left;
+}
+.nexttoqr1{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 66px;
+    margin-left: 202px;
+}
+.nexttoqr2{font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 66px;
+    margin-left: 202px;
+}
+.nexttoqrsmall{
+    letter-spacing: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-left: 202px;
+    margin-top: -25px;
+}
+.part6{
+    width: 100%;
+    height: 953px;
+    background-color: black;
+    float: left;
+}
+.part6div1{
+   width: 1152px;
+   height: 178.8px;
+   background-color: black;
+   margin-top: 67px;
+   margin-left: 160px;
+}
+.part6div2{
+   height: 332px;
+   width: 1152px;
+   background-color: black;
+   margin-top: 0px;
+   margin-left: 160px;
+}
+.part6div3{
+   height: 162.76px;
+   width: 1152px;
+ 
+   margin-top: 75px;
+   margin-left: 160px;
+}
+.part6div4{
+    width: 1152px;
+    height: 44px;
+    
+    margin-top: 35px;
+    margin-left: 160px;
+}
+.part6div1text1{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+.part6div1text2{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1;
+    color: #FFFFFF;
+}
+.part6table1{
+  width:100%;
+  height:343px ;
+}
+.tablehead{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.tabledata{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.imageslast{
+    cursor: pointer;
+}
+.imageslast:hover {
+   
+   opacity: .5;
+   
+}
+
+.part6div3div{
+    width: 290px;
+    height: 68px;
+    margin-top: -29px;
+    margin-left: 862px;
+    float: left;
+}
+.part6div3divbutton1{
+    float: left;
+    cursor: pointer;
+    margin-left: 111px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: black;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.part6div3divbutton1:hover{
+    background-color: dimgray;
+    transition-duration: .3s;
+}
+.part6div3divbutton2{
+    float: left;
+    cursor: pointer;
+    margin-left: 35px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: black;
+    color: #FFFFFF;
+}
+.part6div3divbutton2:hover {
+    background-color: dimgray;
+    transition-duration: .3s;
+}
+.part6div3div2{
+    float: left;
+    width: 558px;
+    height: 54px;
+    
+    margin-top: 30px;
+}
+.lastimage1 {
+    float: left;
+    width: 137px;
+    height: 54px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.lastimage2{
+    float: left;
+    width: 123px;
+    height: 53px;
+    margin-top: 0px;
+    margin-left: 19px;
+}
+.part6lasttexts{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.part6lasttexts:hover{
+    color: dimgray;
+    transition-duration: .3s;
+}
